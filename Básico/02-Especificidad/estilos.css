@@ -1,0 +1,19 @@
+.color-blue {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+#color-purple {
+    color: purple;
+}
+
+[ranciobich="color-green"] {
+    color: green;
+}
+
+h1 {
+    color: gray !important; 
+}

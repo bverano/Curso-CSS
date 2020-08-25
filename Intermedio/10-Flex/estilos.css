@@ -1,0 +1,61 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/*? PROPIEDADES DEL FLEX CONTAINER  */
+
+/*! Con flex tienes la posibilidad de cambiar la dirección del main axis */
+/* Utilizando flex-direction en el container con display flex, puedes cambiar esa dirección */
+/* flex direction row o column reverse cambiar el sentido del main axis  */
+/* flex flow sirve para abreviar una combinación entre flex direction y flex wrap */
+
+/*! Justify content te permite alinear los flex items a lo largo del main axis */
+/* space-around sirve para darle margen automático a cada flex item*/
+/* space-between sirve para darle el máximo margen posible a cada flex item */
+/* space evenly sirve para darle el mismo espaciado a cada flex item */
+
+/*! Align items sirve para alinear los flex items en el cross axis, recomendado solo para 1 línea */
+/* center los centra en medio del flex container */
+/* flex-end los posiciona al final del cross axis del flex container */
+/* flex-start los posiciona al inicio del cross axis del flex container */
+/* Si se deja el valor por defecto "stretch", los flex items se van a estirar por todo el alto del flex container, mientras que si se coloca flex start, solo tendrán la altura necesaria */
+/* Se observa que si se tienen más líneas, en el caso de un flex wrap, los items obtienen un espaciado indeseado entre líneas*/
+
+/*! Para solucionar el problema del interlineado se utiliza align content */
+
+/*? PROPIEDADES DE LOS FLEX ITEMS  */
+/* align-self funciona de manera similar al align items, pero con solo un elemento */
+/* margin se puede utilizar para centrar los elemento, utilizando el auto en cualquier dirección */
+/* flex-grow hace que los items crezcan en el espacio libre de acuerdo a una proporción indicada */
+/* flex-grow 1 en un componente, hace que dicho componente tome todo el espacio sobrante de su contenedor */
+/* flex-basis es similar a width pero con más importancia */
+/* flex-shrink define cuánto espacio puede ceder un componente para que los demás tengan las dimensiones deseadas */
+/* flex: flex-grow flex-shrink flex-basis */
+/* order: como el z index pero en la dirección del main axis. A mayor order, más hacia la dirección del main axis estará el elemento */
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+}
+
+.flex-item {
+    background: #248;
+    color: #fff;
+    height: 100PX;
+    min-width: 120px;
+    text-align: center;
+    width: 300px;
+    flex: 1;
+}
+
+.orange {
+    background: orange;
+    flex: 1 0 300px;
+    order: 4;
+}
+
+.green {
+    background: green;
+}

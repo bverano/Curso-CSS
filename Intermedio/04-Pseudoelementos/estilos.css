@@ -1,0 +1,57 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/*! Solo se pueden aplciar estos pseudoelementos a bloques que no son inline */
+
+.texto {
+    padding: 20px;
+}
+
+.texto::first-line {
+    color: blue;
+    font-size: 2em;
+}
+
+.texto::first-letter {
+    font-size: 5em;
+}
+
+.texto::selection {
+    color: red;
+}
+
+form {
+    margin: 100px auto;
+    background: #555;
+    padding: 100px;
+    width: 50%;
+}
+
+input {
+    padding: 6px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 1.4em;
+    background: yellow;
+}
+
+input::selection {
+    color: blue;
+    background: green;
+}
+
+b::before {
+    content: "Me suscribí";
+    color: red;
+}
+
+b::after {
+    content: "Todo Tendencias";
+    background: red;
+}

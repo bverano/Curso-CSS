@@ -1,0 +1,29 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+/* TOP y LEFT son las más importantes. En caso estos estén y se quiera colocar las otras dos, el navegador las ignora*/
+/* Z index solo disponible cuando las cajas están posicionadas*/ 
+
+/*! la única maner de colocar al padre por encima del hijo, es darle un z-index al hijo de -1 y no darle z-index al padre */
+
+.contenedor {
+    background: blue;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    position: relative;
+}
+
+.hijo {
+    background: orange;
+    height: 120px;
+    width: 120px;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+}
+

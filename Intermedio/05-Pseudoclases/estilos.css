@@ -1,0 +1,74 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: all 1s, border .5s;
+    border: 3px solid red;
+}
+
+.caja1:hover {
+    background: darkslateblue;
+    height: 300px;
+    width: 300px;
+    border-color: blue;
+}
+
+button {
+    padding: 20px;
+    background: darkslateblue;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: slateblue;
+    color: white;
+}
+
+a {
+    margin: 30px;
+    display: block;
+}
+
+a:link {
+    color: red;
+    background: blue;
+}
+
+a:visited {
+    color: green;
+    background: black;
+}
+
+.caja2 {
+    width: 250px;
+    height: 250px;
+    background: red;
+    margin: 25px;
+    transition: all 1s;
+}
+
+.caja2:active {
+    background: blue;
+    width: 400px;
+}
+
+.entrada {
+    margin: 25px;
+    padding: 3px;
+    transition: all 0.4s;
+}
+
+.entrada:focus {
+    background: lightgray;
+    padding: 20px
+}
+
+.lenguaje b:lang(en) {
+    background: red;
+} 

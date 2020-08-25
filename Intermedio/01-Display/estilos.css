@@ -1,0 +1,14 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+b {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background: yellow;
+    border: 10px solid red;
+    display: inline-block;
+}

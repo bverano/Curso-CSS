@@ -1,0 +1,14 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.caja {
+    margin: 45px;
+    width: 220px;
+    height: 300px;
+    border: 5px solid red;
+    background: pink;
+    cursor: pointer;
+}

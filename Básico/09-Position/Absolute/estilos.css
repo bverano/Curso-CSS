@@ -1,0 +1,51 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+/*! Los hijos con position absolute pueden tomar al padre como referencia si este está posicionado */
+
+div {
+    display: block;
+    position: absolute;
+}
+
+div div {
+    height: 75px;
+    width: 75px;
+    background: yellow;
+}
+
+.contenedor {
+    position: relative;
+    border: 4px solid red;
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 450px;
+    width: 450px;
+    background: green;
+}
+
+
+.caja2 {
+    right: 0;
+}
+
+.caja3 {
+    bottom: 0;
+}
+
+.caja4 {
+    bottom: 0;
+    right: 0;
+}
+
+/* Para centrar un componente */
+.caja5 {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

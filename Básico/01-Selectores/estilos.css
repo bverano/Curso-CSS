@@ -1,0 +1,40 @@
+/* Selector universal  */
+* { 
+    background-color: #ccc;
+}
+
+/* Selector de tipo */
+p {
+    color: blue;
+}
+
+/* Selector de clases */
+.titulo-h2 {
+    color: yellow;
+}
+
+/* Selector por ID */
+#element {
+    color: red;
+}
+
+/* Selector por atributo */
+[rancio="siii"] {
+    color: green;
+}
+
+/* Selector por descendiente */
+form {
+    border: 1px solid black;
+}
+form button {
+    color: white;
+}
+.titulo-form h3 {
+    color: purple;
+}
+
+/* Selector por pseudoclases */
+a:hover {
+    color: white;
+}

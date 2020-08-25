@@ -1,0 +1,28 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/* Object fit contain ajusta la imagen a su forma original dentro del contenedor */
+/*  Object fit cover hace que la imagen cubra el contenedor en su totalidad y corta el sobrante */
+/* Object fit none poner las resoluciones originales */
+/*  Object fit scale down toma la resolución más baja entre cover y none */
+
+.caja{
+    display: flex;
+    height: 250px;
+    flex-wrap: wrap;
+}
+
+.caja div {
+    flex: 1;
+    display: flex;
+    margin: 4px;
+    border: 1px solid red;
+    min-width: 180px;
+}
+
+.caja img {
+    object-fit: cover;
+}

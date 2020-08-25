@@ -1,0 +1,16 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    display: inline-block;
+}
+
+.caja3 {
+    outline: 5px solid red;
+}

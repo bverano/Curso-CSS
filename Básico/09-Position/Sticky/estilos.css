@@ -1,0 +1,14 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+/* Es como la mezcla entre relative y absolute. Toma como referencia sus cajas adyacentes*/ 
+
+.caja-sticky {
+    background: red;
+    position: sticky;
+    opacity: 0.3;
+    top: 0;
+}

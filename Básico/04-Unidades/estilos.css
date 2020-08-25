@@ -1,0 +1,14 @@
+/* Por defecto 1em son 16px */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-form {
+    font-size: 25px;
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
+}
+
