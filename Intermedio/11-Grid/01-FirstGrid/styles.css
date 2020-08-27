@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    background: #FFEBAF;
+}
+
+body {
+    padding: 20px;
+}
+
+div div {
+    color: #FFEBAF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div div:first-child, div div:nth-child(3), div div:nth-child(5) {
+   background: #86C4B5;
+}
+
+div div:nth-child(4) {
+    background: #FFC761;
+}
+
+div div:nth-child(2), div div:nth-child(6){
+    background: #FF7262;
+}
+
+/* GRID */
+
+.container {
+    display: grid;
+    /* grid-template: rows / columns; */
+    grid-template: repeat(2, 50px) / repeat(3, 1fr);
+    grid-gap: 3px;
+}
